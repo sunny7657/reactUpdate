@@ -1,75 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vite + React</title>
   </head>
   <body>
-    <div class="link"></div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore
-      distinctio obcaecati facere odit velit similique iste porro, molestias
-      repellendus architecto aut. Cupiditate nam non earum rem excepturi minus
-      odio incidunt dicta doloribus laboriosam sint, veniam dolor magni hic
-      neque corrupti, iure aspernatur ea rerum eos, placeat maiores quo saepe.
-    </p>
-    <div class="link"></div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore
-      distinctio obcaecati facere odit velit similique iste porro, molestias
-      repellendus architecto aut. Cupiditate nam non earum rem excepturi minus
-      odio incidunt dicta doloribus laboriosam sint, veniam dolor magni hic
-      neque corrupti, iure aspernatur ea rerum eos, placeat maiores quo saepe.
-    </p>
-    <div class="link"></div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore
-      distinctio obcaecati facere odit velit similique iste porro, molestias
-      repellendus architecto aut. Cupiditate nam non earum rem excepturi minus
-      odio incidunt dicta doloribus laboriosam sint, veniam dolor magni hic
-      neque corrupti, iure aspernatur ea rerum eos, placeat maiores quo saepe.
-    </p>
-    <div class="link"></div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore
-      distinctio obcaecati facere odit velit similique iste porro, molestias
-      repellendus architecto aut. Cupiditate nam non earum rem excepturi minus
-      odio incidunt dicta doloribus laboriosam sint, veniam dolor magni hic
-      neque corrupti, iure aspernatur ea rerum eos, placeat maiores quo saepe.
-    </p>
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script>
-      const link = React.createElement(
-        "a",
-        {
-          target: "_blank",
-          rel: "noopener noreferrer",
-          href: "https://zrozumiecreact.pl",
-        },
-        "zrozum"
-      );
-
-      document.querySelectorAll(".link").forEach((div) => {
-        ReactDOM.createRoot(div).render(link);
-      });
-    </script>
-    <!-- <script>
-      document.querySelectorAll(".link").forEach((element) => {
-        const anchorElem = document.createElement("a");
-        anchorElem.textContent = "zrozumieć.pl llll";
-        anchorElem.target = "_blank";
-        anchorElem.href = "https://zrozumiecreact.pl";
-        anchorElem.rel = "noopener noreferrer";
-        element.append(anchorElem);
-      });
-    </script> -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
